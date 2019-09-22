@@ -38,6 +38,16 @@ header{
   .products-side-bar{
     width: 300px;
     background-color: blue;
+    .products{
+
+      .product{
+        margin: 25px;
+        background-color: gray;
+        &__image__size{
+          height: 350px;
+        }
+      }
+    }
   }
 
 }
